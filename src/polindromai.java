@@ -5,6 +5,7 @@ public class polindromai {
         System.out.println("jonukai ivesk polindroma");
         Scanner pol =new Scanner(System.in);
         String a = pol.nextLine();
+        a=a.replaceAll(" ","");
         boolean p = true;
         for (int i = 0;i<a.length();i++){
             char pradzia = a.charAt(i);
